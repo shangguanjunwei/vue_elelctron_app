@@ -10,6 +10,9 @@ module.exports = defineConfig({
       builderOptions: {}, // 打包配置
       // outputDir: "sgjw-electron-app", // 打包输出文件夹名称，默认为 dist_electron
       removeElectronJunk: false,  // 清除终端中的垃圾输出
+      builderOptions: { // 打包配置
+        publish: ['github']
+      }
     }
   }
 })
