@@ -1,24 +1,15 @@
-# vue_electron_app_3
+# 自己动手构建vue+electron项目
+```
+1. vue create my-project
+2. npm install electron -D // 安装最新版本的electron
+3. vue add electron-builder
+```
+因为如果直接执行第三行，会导致 electron 安装的不是最新版本，所以需要在执行前先在项目中安装好 electron 。
 
-## Project setup
-```
-npm install
-```
+# 项目参考文档
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[Vue : https://v3.cn.vuejs.org/](https://v3.cn.vuejs.org/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[electron : https://www.electronjs.org](https://www.electronjs.org/)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Vue CLI Plugin Electron Builder : https://nklayman.github.io/vue-cli-plugin-electron-builder/](https://nklayman.github.io/vue-cli-plugin-electron-builder/)
